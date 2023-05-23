@@ -10,10 +10,15 @@
     <link rel="stylesheet" href="./styles/board.css" />
   </head>
   <body>
-
     <header>
       <div class="container">
         <button class="btn">Menu</button>
+        <svg height="68" width="64">
+          <circle cx="14" cy="14" r="12" fill="#fd6687" stroke="black" stroke-width="4" style="filter: drop-shadow(0 3px 0 black)" />
+          <circle cx="50" cy="14" r="12" fill="#ffce67" stroke="black" stroke-width="4" style="filter: drop-shadow(0 3px 0 black)" />
+          <circle cx="14" cy="50" r="12" fill="#ffce67" stroke="black" stroke-width="4" style="filter: drop-shadow(0 3px 0 black)" />
+          <circle cx="50" cy="50" r="12" fill="#fd6687" stroke="black" stroke-width="4" style="filter: drop-shadow(0 3px 0 black)" />
+        </svg>
         <button class="btn">Restart</button>
       </div>
     </header>
@@ -28,15 +33,12 @@
           <span class="card__title">Player 2</span>
           <span class="card__points">23</span>
         </div>
-  
+
         <div class="board">
-          <div class="board__spots">
-            
-          </div>
+          <div class="board__spots"></div>
         </div>
       </div>
     </main>
-
 
     <script src="./scripts/board.js"></script>
     <script src="./scripts/main.js"></script>
